@@ -1,4 +1,5 @@
 <php?
+	$html = file_get_html("mainpage.html");
 
-	readfile("mainpage.html");
+	echo $html;
 ?>
