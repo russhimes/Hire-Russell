@@ -1,1 +1,1 @@
-echo readfile("mainpage.html");
+readfile("mainpage.html");
