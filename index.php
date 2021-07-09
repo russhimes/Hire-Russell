@@ -1,5 +1,5 @@
 <html>
 <?php 
-echo readfile("mainpage.html");
+readfile("mainpage.html");
 ?>
 </html>
