@@ -1,1 +1,3 @@
-readfile("mainpage.html");
+<?php 
+echo readfile("mainpage.html");
+?>
