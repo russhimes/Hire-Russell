@@ -1,6 +1,6 @@
 <html>
 <?php>
-readfile("mainpage.html");
+echo file_get_contents("mainpage.html");
 ?>
 </html>
 
