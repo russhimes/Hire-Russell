@@ -1,5 +1,5 @@
 <html>
-<?php>
+<?php
 file_get_contents("mainpage.html");
 ?>
 </html>
