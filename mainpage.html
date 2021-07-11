@@ -1,60 +1,87 @@
 <html>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<style>
-    br {
-        line-height: 108%;
-    }
-    h1 {
-        font-family: Helvetica;
-        font-size: 20px;
-        font-weight: bold;
-        color: #5566BB;
-    }
-    p {
-        font-family: Helvetica;
-    }
-    .header-menu-item {
-        font-family: Helvetica;
-        font-size: 16px;
-        font-weight: bold;
-        color: #0000DD;
-    }
-    .header-menu {
-        position: fixed;
-        top: 0;
-        z-index: 50;
-        width: 100%;
-        background-color: #FFE;
-    }
-    .buffer {
-        z-index: 100;
-        background-color: #FFE;
-    }
-
-</style>
-    <div class = "container-fluid" style = "background: #FFE">
-        <div class = "row">
-            <div class = "col-sm-1"></div>
-            <div class = "col-sm-10">
-                <div class = "row header-menu">
-                    <div class = "col-sm-3">
-                        <h1>Hire<br/>Russell</h1>
-                    </div>
-                    <div class = "col-sm-3">
-                        <p class = "header-menu-item">About</p>
-                    </div>
-                    <div class = "col-sm-3">
-                        <p class = "header-menu-item">Projects</p>
-                    </div>
-                    <div class = "col-sm-3">
-                        <p class = "header-menu-item">Contact Me</p>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style = "background: #777">
+    <div class = "container-fluid" style = "background: #777">
+        <div class = "row header-menu">
+            <div class = "col-sm-8">
+                <a href ="mainpage.html" style = "text-decoration: none;">
+                <h1 class = "default-IDE-color">hire(</h1>
+                <h1 class = "string-color">"Russell"</h1>
+                <h1 class = "default-IDE-color">);</h1>
+                </a>
+            </div>
+            <div class = "col-sm-1">
+                <a href = "about.html" style = "text-decoration: none;">
+                <p class = "header-menu-item">About</p>
+                </a>
+            </div>
+            <div class = "col-sm-1">
+                <a href = "projects.html" style = "text-decoration: none;">
+                <p class = "header-menu-item">Projects</p>
+                </a>
+            </div>
+            <div class = "col-sm-2">
+                <a href = "contactme.html" style = "text-decoration: none">
+                <p class = "header-menu-item">Contact Me</p>
+                </a>
+            </div>
+        </div>
+        <div class = "row buffer"></div>
+        <div class = "row mainpage-content">
+            <div class = "col-sm-2"></div>
+            <div class = "col-sm-4">
+                </br></br></br></br>
+                <h2><span class = "condition-color">if</span>
+                    <span class = "default-IDE-color">(needsDeveloper) { </span></h2>
+                <h2>&emsp;<span class = "default-IDE-color">hire(</span>
+                    <span class = "string-color">"Russell"</span>
+                    <span class = "default-IDE-color">);</span></h2><br/>
+                <h2><span class = "default-IDE-color">}</span></h2><br/>
+                <h2><span class = "condition-color">else </span>
+                    <span class = "default-IDE-color">{</span></h2></br>
+                <h2>&emsp;<span class = "default-IDE-color">browse();</span></h2><br/>
+                <h2>&emsp;<span class = "default-IDE-color">enjoy();</span></h2><br/>
+                <h2>&emsp;<span class = "condition-color">return;</span></h2><br/>
+                <h2><span class = "default-IDE-color">}</span></h2>
+            </div>
+            <div class = "col-sm-4">
+                <br/><br/><br/><br/>
+                <div class = "row">
+                    <div class = "col-sm-12">
+                    <a href = "about.html">
+                    <button class = "btn-outline-secondary btn-block pt-5 pb-5 rounded" style = "width: 100%">
+                        <span style = "color: #000">Find out what Russell Himes can bring to your team!</span>
+                    </button>
+                    </a>
                     </div>
                 </div>
-                <div class = "Buffer"></div>
-                <img src = "Resources/Headshot.jpg"/>
-                <p><br>My name is Russell Himes and I am seeking a position as a junior developer.  Please enjoy this website, which I've set up to demonstrate what I've learned over years of self-study and an intensive course with TechElevator's Java bootcamp.<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p>
+                <div class = "row">
+                    <div class = "col-sm-12">
+                    <a href = "https://www.linkedin.com/in/russell-himes/">
+                    <button class = "btn-social btn-linkedin btn-block pt-5 pb-5 rounded" style = "width: 100%">
+                        Linked
+                        <span class = "fa fa-linkedIn" style = "color: #0e76a8"></span>
+                    </button>
+                    </a>
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-sm-12">
+                        <a href = "https://github.com/russhimes">
+                        <button class = "btn-social btn-linkedin btn-block pt-5 pb-5 rounded" style = "width: 100%" onclick = "https://github.com/russhimes">
+                            GitHub
+                            <span class = "fa fa-GitHub"></span>
+                        </button>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <div class = "col-sm-1"></div>
         </div>
     </div>
+    </body>
 </html>

@@ -1,0 +1,53 @@
+<style>
+    br {
+        line-height: 108%;
+    }
+    h1 {
+        font-family: Helvetica;
+        font-size: 30px;
+        font-weight: bold;
+        display: inline;
+    }
+    h2 {
+        font-family: Helvetica;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+    }
+    .default-IDE-color {
+        color: #EEE;
+    }
+    .string-color {
+        color: #9E5;
+    }
+    .condition-color {
+        color: #EA2;
+    }
+
+    p {
+        font-family: Helvetica;
+    }
+    .header-menu-item {
+        font-family: Helvetica;
+        font-size: 16px;
+        font-weight: bold;
+        color: #EEE;
+    }
+    .header-menu {
+        top: 0;
+        z-index: 50;
+        width: 100%;
+        background-color: #777;
+    }
+    .mainpage-content {
+        width: 100%
+        background-color: #777;
+    }
+    .buffer {
+        z-index: 50;
+        width: 100%;
+        background-color: #777;
+    }
+
+
+</style>
