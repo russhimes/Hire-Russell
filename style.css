@@ -72,6 +72,12 @@
 	background: #F6F6F3;
 	color: #333;
     }
+    .gen-btn {
+        border-radius: 15px;
+        box-shadow: 6px 0px 3px #AA9;
+        background: #F6F6F3;
+        color: #333;
+    }
     .mid-btn {
 	border-collapse: separate;
 	width: 100%;
