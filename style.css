@@ -73,8 +73,13 @@
 	color: #333;
     }
     .gen-btn {
-        border-radius: 15px;
-        box-shadow: 6px 0px 3px #AA9;
+        border-collapse: separate;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        box-shadow: 6px 6px 3px #AA9;
         background: #F6F6F3;
         color: #333;
     }
