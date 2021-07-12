@@ -68,7 +68,7 @@
 	border-top-right-radius: 15px;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
-	box-shadow: 15px;
+	box-shadow: 6px 0px 3px #AA9;
 	background: #F6F6F3;
 	color: #333;
     }
@@ -76,7 +76,7 @@
 	border-collapse: separate;
 	width: 100%;
 	border-radius: 8px;
-	box-shadow: 15px;
+	box-shadow: 6px 0px 3px #AA9;
 	background: #F6F6F3;
 	color: #333;
     }
@@ -87,7 +87,7 @@
 	border-bottom-right-radius: 15px;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	box-shadow: 15px;
+	box-shadow: 6px 6px 3px #AA9;
 	background: #F6F6F3;
 	color: #333;
    }
