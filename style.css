@@ -7,12 +7,12 @@
         font-size: 1.75em;
         font-weight: bold;
         display: inline;
-        margin-left: -0.1em !important;
-        margin-right: -0.1em !important;
     }
-    h2 {
+
+
+    .larger {
         font-family: Monospace;
-        font-size: 2.05em;
+        font-size: 1.75em;
         font-weight: bold;
         display: inline;
     }
@@ -25,13 +25,13 @@
     .string-color {
         color: #9E5;
         font-family: Monospace;
-        margin-left: -0.5em;
-        margin-right: -0.5em;
+        margin-left: -0.3em;
+        margin-right: -0.3em;
     }
     .condition-color {
         color: #EA2;
         font-family: Monospace;
-        margin-right: -0.5em;
+        margin-right: -0.3em;
     }
 
     p {
@@ -61,6 +61,7 @@
         border-radius: 15px;
         padding: 15px;
         background: #333;
+        box-shadow: 6px 6px 3px #AA9;
     }
     .top-btn {
 	border-collapse: separate;
