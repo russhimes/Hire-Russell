@@ -60,6 +60,7 @@
     .faux-DOS {
         border-radius: 15px;
         padding: 15px;
+        background: #333;
     }
     .top-btn {
 	border-collapse: separate;
