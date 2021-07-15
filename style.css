@@ -63,6 +63,7 @@
         background: #333;
         box-shadow: 6px 6px 3px #AA9;
     }
+
     .top-btn {
 	border-collapse: separate;
 	width: 100%;
@@ -73,7 +74,9 @@
 	box-shadow: 6px 0px 3px #AA9;
 	background: #F6F6F3;
 	color: #333;
+	a:hover {color: #FFF;}
     }
+
     .gen-btn {
         border-collapse: separate;
         width: 100%;
